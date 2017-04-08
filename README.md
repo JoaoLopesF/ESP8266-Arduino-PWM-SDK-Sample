@@ -29,10 +29,11 @@ But I not found Arduino sample to use this
 
 This sample is to show how use the PWM SDK
 
-Attention!  - To use this new solution You have put the file "pwm.c" together at your ".ino" file
-					- You can use 8 PWM, but not in GPIO16 (D0)
-  					- After changes in PWM, you must call "pwm_start" to commit this changes
-  					- This PWM uses the period to set dutys: 100% -> 5000, 10% -> 500 (for default period)
+Attention!  
+ - To use this new solution You have put the file "pwm.c" together at your ".ino" file
+ - You can use 8 PWM, but not in GPIO16 (D0)
+ - After changes in PWM, you must call "pwm_start" to commit this changes
+ - This PWM uses the period to set dutys: 100% -> 5000, 10% -> 500 (for default period)
 
  This sample dimmer the leds in D5 and D6
 
