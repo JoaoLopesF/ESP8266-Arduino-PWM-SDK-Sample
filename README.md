@@ -18,7 +18,6 @@ If you want dimmer an LED, you can see "flickering: :-(
 Have any sources in internet about this, as:
 
     - https://github.com/esp8266/Arduino/issues/836
-    - https://github.com/espruino/Espruino/issues/914
 
 I not have sucess with analogWrites, so I go to PWM of Expressif ESP8266 SDK.
 This Have issues too :-(
